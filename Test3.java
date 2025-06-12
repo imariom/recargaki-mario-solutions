@@ -11,6 +11,8 @@ class Person {
 
     public Person(String name, String surname,
         int age, double height, String eyeColor) {
+        _obj = new JSONObject();
+        
         _obj.put("name", name);
         _obj.put("surname", surname);
         _obj.put("age", age);
