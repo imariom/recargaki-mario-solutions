@@ -1,0 +1,24 @@
+/* Centre the heading text and set its colour to blue. */
+h1 {
+    text-align: center;
+    color: blue;
+}
+
+/* Set the paragraph font size to 16px and add 10px of margin below it. */
+p {
+    font-size: 16px;
+    margin-bottom: 10px;
+
+}
+
+/* Style the button with a green background, white text, and 5px padding. */
+button {
+    background-color: green;
+    color: white;
+    padding: 5px;
+}
+
+/* Ensure the button changes to a darker green (#006400) on hover. */
+button:hover {
+    background-color: #006400;
+}
