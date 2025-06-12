@@ -25,7 +25,7 @@ class Person {
 
     // Get the intenral age representation
     public int getAge() {
-        return _obj.getInteger("age");
+        return _obj.getInt("age");
     }
 }
 
